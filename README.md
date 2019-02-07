@@ -8,7 +8,7 @@ out for those things!
 HOW TO PLAY: 
 
 In this game - you have a set number of guesses to guess a color code. The color code is set by the GameConfiguration class, 
-along with the number of guesses a player has, and how long the code is: ie. 4 guesses, 5 guesses, 6 guesses. 
+along with the number of guesses a player has, and how long the code is: ie. 4 colors, 5 colors, 6 colors, etc. 
 
 Guesses are case sensitive. Also, a guess of "HISTORY" will show status of current game board, ie: all previous guesses and their feedback.
 Feedback returns black and white pegs. 
@@ -18,4 +18,9 @@ Feedback returns black and white pegs.
      Guess = BGPR
      gives feedback = 1b_1w
      
-     
+TO RUN: download directory assignment2
+
+in terminal: 1) cd assignment2
+             2) javac *.java
+             3) cd .. 
+             4) java assignment2.Driver                       
